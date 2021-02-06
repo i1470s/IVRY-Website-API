@@ -33,8 +33,9 @@ def home():
             <title>I V R Y - API</title>
             <icon >
             </head>
-            <h1>IVRY API V1</h1>
+            <h1>IVRY API</h1>
             <h2>Welcome</h2>
+            <h3>Version - 1.0</h3>
             <br>
             <h3>API Endpoints<h3>
             <p>https://api-ivry.herokuapp.com/api/v1/</p>
