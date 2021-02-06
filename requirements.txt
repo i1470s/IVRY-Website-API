@@ -22,9 +22,7 @@ config==0.5.0.post0
 dataIO==0.0.5
 decorator==4.4.2
 discord==1.0.1
-discord-ext-menus==1.0.0a26+g84caae8
 discord.py==1.5.1
-DiscordUtils==1.2
 docopt==0.6.2
 Eel==0.12.4
 fake-useragent==0.1.11
