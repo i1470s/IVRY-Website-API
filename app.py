@@ -33,7 +33,7 @@ def home():
             <h2>Welcome</h2>
             <br>
             <h3>API Endpoints<h3>
-            <p>https://api-ivry.tk/api/v1/</p>
+            <p>https://api-ivry.herokuapp.com/api/v1/</p>
             <br>
             <h3>Our Website<h3>
             <p>https://ivry.tk/</p>'''
@@ -45,7 +45,7 @@ def api():
 @app.route('/api/v1/structure', methods=['GET'])
 def structure():
     return '''  
-├── https://api-ivry.tk/ <br>
+├── https://api-ivry.herokuapp.com/ <br>
 ⠀└── /api/v1/ <br>
 ⠀⠀└── structure <br>
 ⠀⠀└── rss <br>''' 
