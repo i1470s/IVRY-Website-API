@@ -29,7 +29,11 @@ endpoints = [
 
 @app.route('/', methods=['GET'])
 def home():
-    return '''<h1>IVRY API V1</h1>
+    return '''<head>
+            <title>I V R Y - API</title>
+            <icon >
+            </head>
+            <h1>IVRY API V1</h1>
             <h2>Welcome</h2>
             <br>
             <h3>API Endpoints<h3>
