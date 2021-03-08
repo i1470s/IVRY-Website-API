@@ -1,2 +1,2 @@
-# IVRY-Website-API
-My Website API
+# IVRY-API
+My API
