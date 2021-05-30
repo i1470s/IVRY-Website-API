@@ -10,7 +10,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     # checkout the repo
@@ -34,6 +34,6 @@ jobs:
       with:
         app-name: IVRY
         slot-name: Production
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_062CB3FCA9EF4794967534EB6D764F7C }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A04AD7E4EDC64438ACEC4EF8C8ACF832 }}
         package: .
 
