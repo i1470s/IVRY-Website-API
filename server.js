@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-    origin: "http://70.71.81.30:80"
+    origin: "https://api-ivry.herokuapp.com"
 };
 
 app.use(cors(corsOptions));
