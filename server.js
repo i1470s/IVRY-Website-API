@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "https://ivry.tk/"
+  origin: "https://api-ivry.herokuapp.com/api/auth/signin"
 };
 
 app.use(cors(corsOptions));
