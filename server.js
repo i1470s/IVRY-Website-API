@@ -6,7 +6,7 @@ const app = express();
 
 var corsOptions = {
     origin: "http://70.71.81.30:80"
-});
+};
 
 app.use(cors(corsOptions));
 
