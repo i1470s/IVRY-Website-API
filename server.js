@@ -4,15 +4,8 @@ const cors = require("cors");
 
 const app = express();
 
-Access-Control-Allow-Origin: *
-
 var corsOptions = {
-    //Enabling CORS
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, 
-    Accept, x-client-key, x-client-token, x-client-secret, Authorization");
-      next();
+    origin: "http://70.71.81.30:80"
 });
 
 app.use(cors(corsOptions));
