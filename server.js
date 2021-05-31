@@ -4,6 +4,8 @@ const cors = require("cors");
 
 const app = express();
 
+Access-Control-Allow-Origin: *
+
 var corsOptions = {
     //Enabling CORS
     res.header("Access-Control-Allow-Origin", "*");
