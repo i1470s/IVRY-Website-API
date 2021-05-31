@@ -1,8 +1,14 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const request = require('request');
 const cors = require("cors");
 
 const app = express();
+
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  next();
+});
 
 var corsOptions = {
     origin: "https://api-ivry.herokuapp.com"
