@@ -1,5 +1,5 @@
 module.exports = {
-  HOST: "70.71.81.30",
+  HOST: "ivry.us.to",
   USER: "root",
   PASSWORD: "123456",
   DB: "testdb",
