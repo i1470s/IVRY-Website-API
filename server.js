@@ -11,7 +11,7 @@ app.use((req, res, next) => {
 });
 
 var corsOptions = {
-    origin: ["https://ivry.tk", "https://api-ivry.herokuapp.com/"]
+    origin: ["https://ivry.tk", "https://api-ivry.herokuapp.com/", "https://api-ivry.herokuapp.com/api/auth/signup", "https://api-ivry.herokuapp.com/api/auth/login"]
 };
 
 app.use(cors(corsOptions));
