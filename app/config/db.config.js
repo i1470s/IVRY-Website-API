@@ -2,7 +2,7 @@ module.exports = {
   HOST: "ivry.us.to",
   USER: "root",
   PASSWORD: "",
-  DB: "ivrywebsitev3-users",
+  DB: "ivry",
   dialect: "mysql",
   pool: {
     max: 5,
