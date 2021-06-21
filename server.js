@@ -35,7 +35,7 @@ db.sequelize.sync();
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to IVRYs backend... why are you here? kinda... sussy" });
+  res.json({ message: "Welcome to IVRYs backend... why are you here? kinda... sussy, oh also this api is private and follows the same License as our website https://ivry.tk/legal#License" });
 });
 
 // routes
